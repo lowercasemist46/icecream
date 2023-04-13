@@ -14,17 +14,10 @@
     $flavors = array("vanilla","chocolate","strawberry","caramel");
     $cones = array("sugar"=>"Sugar Cone", "waffle"=>"Waffle Cone", "cup"=>"Cup");
 
+    $title = "Order Form";
+    include('header.php');
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <title>Ice Cream Shoppe</title>
-</head><body>
+<body>
 <div class="container">
     <h1>Welcome to my Ice Cream Shoppe!</h1>
     <form action="process.php" method="post">
